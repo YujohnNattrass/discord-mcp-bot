@@ -1,7 +1,7 @@
 import { openai } from "@ai-sdk/openai";
 import { Agent } from "@mastra/core/agent";
 import { MCPConfiguration } from "@mastra/mcp";
-
+console.log(`Loading MCP configuration...`, process.env.PATH)
 const mcpConfig = new MCPConfiguration({
   servers: {
     mastra: {
